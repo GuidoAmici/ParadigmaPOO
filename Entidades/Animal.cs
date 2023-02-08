@@ -13,14 +13,11 @@ namespace ConsoleAppHerencia
         private string Nombre = null;
         private TipoAnimal Tipo = null;
         
-
-
         //METODOS
         public Animal(string nombre, string tipo)
         {
             Nombre = nombre;
             Tipo = new();
-
         }
 
         public string getNombre()

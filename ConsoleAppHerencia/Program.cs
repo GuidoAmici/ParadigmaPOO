@@ -1,17 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ConsoleAppHerencia;
-
-Animal objetoAnimal;
-string lugar;
+using Validaciones;
 
 
 
-Console.WriteLine("Habia una vez un lugar llamado");
-Console.WriteLine("En este lugar vivía un " + objetoAnimal);
-Console.WriteLine("Ya que este aninmal era un " + objetoAnimal.getTipo();
-//Los reptiles 
-//Los anfibios 
-//Los mamiferos 
-//Los aves 
-//Los peces 
-Console.WriteLine(objetoAnimal.getNombre() + "solo podía " + objetoAnimal.getMetodoDesplazamiento();
+static void Main(string[] args)
+{
+
+    Animal objetoAnimal;
+    string lugar;
+
+    objetoAnimal = null;
+    objetoAnimal = new();
+    lugar = string.Empty;
+
+    Test.Run(objetoAnimal);
+
+    Test.Show(objetoAnimal);
+
+    Console.WriteLine("Habia una vez en algun lugar de la tierra");
+    Console.WriteLine("Un " + objetoAnimal);
+    Console.WriteLine("Ya que este aninmal era un " + objetoAnimal.getTipo();
+    Console.WriteLine(objetoAnimal.getNombre() + "solo podía " + objetoAnimal.getMetodoDesplazamiento();
+}
